@@ -3,7 +3,7 @@
 set -eo pipefail
 
 build_tag=$1
-name='supporttool-service'
+name='help-center-service'
 node=$2
 org=$3
 
