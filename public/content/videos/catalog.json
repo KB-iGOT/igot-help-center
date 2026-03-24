@@ -1,0 +1,34 @@
+{
+  "categories": [
+    { "id": "profile-account", "label": "Profile & Account", "icon": "user" },
+    { "id": "registration-login", "label": "Registration & Login", "icon": "login" },
+    { "id": "certificates", "label": "Certificates & DigiLocker", "icon": "award" },
+    { "id": "mobile-app", "label": "Mobile App (Android & iOS)", "icon": "smartphone" },
+    { "id": "discussion", "label": "Discussion & Community", "icon": "globe" },
+    { "id": "igot-apar", "label": "My iGOT & APAR", "icon": "clipboard" },
+    { "id": "dashboard-analytics", "label": "Dashboard & Analytics", "icon": "wrench" },
+    { "id": "user-management", "label": "User Management", "icon": "shield" },
+    { "id": "sparrow", "label": "SPARROW Integration", "icon": "link" },
+    { "id": "events-programs", "label": "Events & Programs", "icon": "pencil" },
+    { "id": "content-platform", "label": "Content Platform", "icon": "lifebuoy" }
+  ],
+  "videos": [
+    { "title": "How to update your profile", "url": "https://youtu.be/9advDLMfjZ8?si=bAUrPXvI08owkrxB", "date": "Sep 4, 2025", "tab": "learner", "category": "profile-account" },
+    { "title": "How to update your profile (Marathi)", "url": "https://youtu.be/rhEIXdD9vD4", "date": "Apr 15, 2025", "tab": "learner", "category": "profile-account" },
+    { "title": "Walkthrough video of Discuss Hub", "url": "https://youtu.be/vV9Y00fWrdM", "date": "Mar 21, 2025", "tab": "learner", "category": "discussion" },
+    { "title": "How to Register & Login at the iGOT Karmayogi platform", "url": "https://youtu.be/MH12AkVBs3k?si=qBPKwjwIUGO1aUo0", "date": "Feb 22, 2024", "tab": "learner", "category": "registration-login" },
+    { "title": "How to access iGOT courses certificate", "url": "", "date": "Jun 8, 2024", "tab": "learner", "category": "certificates" },
+    { "title": "How to download the iGOT Karmayogi App on Android Devices", "url": "https://youtu.be/bJ7JaHjaLKk?si=z353HCXBlUtSkO4h", "date": "Apr 30, 2024", "tab": "learner", "category": "mobile-app" },
+    { "title": "How to download the iGOT Karmayogi App on iOS Devices", "url": "https://youtu.be/zHCJ2UlRG5o?si=XoQfvq8sjLOkWDt7", "date": "Apr 30, 2024", "tab": "learner", "category": "mobile-app" },
+    { "title": "How to access iGOT certificate on Digilocker", "url": "https://youtu.be/YpO5V9MVqsE?si=JVFSV4IbI7-cVF5H", "date": "May 8, 2024", "tab": "learner", "category": "certificates" },
+    { "title": "How to create My iGOT", "url": "https://youtu.be/C-cODooEZXQ", "date": "Aug 29, 2025", "tab": "mdo", "category": "igot-apar" },
+    { "title": "Looker walkthrough video", "url": "https://youtu.be/tTjAAG-tuFM", "date": "Aug 26, 2025", "tab": "mdo", "category": "dashboard-analytics" },
+    { "title": "APAR Comprehensive Assessment", "url": "https://youtu.be/CLtEUI2-1u0?si=Ibdm7MWUEIbMSoHd", "date": "Jan 20, 2026", "tab": "mdo", "category": "igot-apar" },
+    { "title": "User Management", "url": "https://youtu.be/7hkP_aBVLsE?si=b-avK2Dyd9i9dM4Z", "date": "Feb 6, 2025", "tab": "mdo", "category": "user-management" },
+    { "title": "SPARROW - APAR integration", "url": "https://youtu.be/gSMSuFib2n8?si=r2l0_tJG0Sjr1A_M", "date": "Mar 18, 2026", "tab": "mdo", "category": "sparrow" },
+    { "title": "Access MDO Dashboard (Looker)", "url": "https://youtu.be/tTjAAG-tuFM?si=Bzunoa-BoAmL9-Nk", "date": "Aug 28, 2025", "tab": "mdo", "category": "dashboard-analytics" },
+    { "title": "Blended Program Walkthrough", "url": "", "date": "Nov 13, 2023", "tab": "mdo", "category": "events-programs" },
+    { "title": "How to Create My iGOT with APAR", "url": "https://youtu.be/C-cODooEZXQ?si=EznuDWSV5yxG6tSW", "date": "Aug 29, 2025", "tab": "mdo", "category": "igot-apar" },
+    { "title": "Walkthrough Video", "url": "https://youtu.be/dnWNo8OMwuQ?si=AZmlrWgBFvyiBBj0", "date": "May 2, 2025", "tab": "cbp", "category": "content-platform" }
+  ]
+}

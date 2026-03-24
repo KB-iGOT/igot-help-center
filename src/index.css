@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+@layer base {
+  :root {
+    --background: 30 25% 97%;
+    --foreground: 220 40% 13%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 40% 13%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 40% 13%;
+
+    --primary: 24 85% 52%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 220 55% 32%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 30 15% 92%;
+    --muted-foreground: 220 12% 46%;
+
+    --accent: 220 55% 32%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 30 15% 87%;
+    --input: 30 15% 87%;
+    --ring: 24 85% 52%;
+
+    --radius: 0.75rem;
+
+    /* Custom tokens */
+    --gradient-hero: linear-gradient(135deg, hsl(24 85% 52%), hsl(18 80% 45%), hsl(220 55% 32%));
+    --gradient-card-org: linear-gradient(145deg, hsl(24 80% 96%), hsl(30 70% 95%));
+    --gradient-card-user: linear-gradient(145deg, hsl(220 50% 96%), hsl(230 45% 95%));
+    --gradient-card-event: linear-gradient(145deg, hsl(32 90% 95%), hsl(15 80% 95%));
+    --gradient-card-analytics: linear-gradient(145deg, hsl(24 60% 96%), hsl(18 50% 95%));
+    --shadow-card: 0 4px 24px -4px hsl(24 40% 20% / 0.08);
+    --shadow-card-hover: 0 12px 40px -8px hsl(24 40% 20% / 0.15);
+    --gradient-support: linear-gradient(135deg, hsl(24 85% 52%), hsl(32 95% 55%), hsl(220 55% 32%));
+
+    --color-org: 24 85% 52%;
+    --color-user: 220 55% 32%;
+    --color-event: 32 95% 55%;
+    --color-analytics: 18 75% 45%;
+
+    --sidebar-background: 30 20% 98%;
+    --sidebar-foreground: 220 40% 13%;
+    --sidebar-primary: 24 85% 52%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 30 15% 95%;
+    --sidebar-accent-foreground: 220 40% 13%;
+    --sidebar-border: 30 13% 90%;
+    --sidebar-ring: 24 85% 52%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Space Grotesk', sans-serif;
+  }
+}
